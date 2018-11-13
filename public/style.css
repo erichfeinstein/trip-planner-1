@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .activity {
+    width: 50px;
+    height: 50px;
+    background-image: url('activity.gif');
+    z-index: 100;
+}
+
+  .hotel {
+    width: 50px;
+    height: 50px;
+    background-image: url('hotel.gif');
+    z-index: 100;
+  } 
+
+  .restaurant {
+    width: 50px;
+    height: 50px;
+    background-image: url('restaurant.gif');
+    z-index: 100;
+  }
